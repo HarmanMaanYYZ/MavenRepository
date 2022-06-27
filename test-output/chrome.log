@@ -1,0 +1,125 @@
+[1655932892.062][INFO]: Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 58488
+[1655932892.063][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1655932893.859][INFO]: [e17efbf9e967a5d8bf2a47212087e4d1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1655932893.869][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1655932893.874][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1655932893.879][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\hsingh\AppData\Local\Temp\scoped_dir19820_1590287784" data:,
+[1655932894.467][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1655932894.478][INFO]: [e17efbf9e967a5d8bf2a47212087e4d1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "102.0.5005.115",
+      "chrome": {
+         "chromedriverVersion": "102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819})",
+         "userDataDir": "C:\\Users\\hsingh\\AppData\\Local\\Temp\\scoped_dir19820_1590287784"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64867"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e17efbf9e967a5d8bf2a47212087e4d1"
+}
+[1655932894.880][INFO]: [e17efbf9e967a5d8bf2a47212087e4d1] COMMAND Navigate {
+   "url": "https://www.facebook.com/"
+}
+[1655932894.880][INFO]: Waiting for pending navigations...
+[1655932894.885][INFO]: Done waiting for pending navigations. Status: ok
+[1655932895.179][INFO]: Waiting for pending navigations...
+[1655932896.550][INFO]: Done waiting for pending navigations. Status: ok
+[1655932896.550][INFO]: [e17efbf9e967a5d8bf2a47212087e4d1] RESPONSE Navigate
