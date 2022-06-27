@@ -5,5 +5,5 @@
     <classes>
       <class name="SuiteA.PracticeDataProvider"/>
     </classes>
-  </test> <!-- suiteA -->
+  </test> <!-- suiteABC -->
 </suite> <!-- Suite -->
